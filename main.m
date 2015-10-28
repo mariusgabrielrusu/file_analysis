@@ -15,4 +15,4 @@ end
 fprintf('Marimile fisierelor sunt: \n\nPe 1 bit: %d \nPe 8 biti: %d \nPe 16biti: %d \n\n', size1, size8, size16);
 
 [file] = select_file(opt);
-hist(file);
+hist_ps(file);

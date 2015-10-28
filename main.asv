@@ -22,7 +22,7 @@ if opt > 1 && opt < 12
   fprintf('Redundanta fisierului pe 8 biti este %d, iar pe 16 biti este %d\n', res8bit, res16bit);
 elseif opt == 13
   [sizes, redundancies] = cycle();
-  array2table(sizes,'VariableNames', {'bit1', 'bit8', 'bit16'})
-  array2table(redundancies,'VariableNames', {'bit8', 'bit16'})
+  array2table(sizes,'VariableNames', {'row1', 'row2', 'row3'})
+  array2table(redundancies,'VariableNames', {'row1', 'row2'})
   
 end
